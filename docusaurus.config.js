@@ -6,7 +6,7 @@ const config = {
   tagline: "Dinosaurs are cool",
   favicon: "img/favicon.ico",
   url: "https://github.com",
-  baseUrl: "/mywebsite/",
+  baseUrl: "/",
   organizationName: "geroytan", // Usually your GitHub org/user name.
   projectName: "mywebsite", // Usually your repo name.
   onBrokenLinks: "throw",
