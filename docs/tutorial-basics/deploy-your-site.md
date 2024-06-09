@@ -68,17 +68,19 @@ npm install -g gh-pages
 **3.	Run the deploy script:**
 
 ***Deploying to Vercel***
-**1.**	Link your repository on the Vercel dashboard.
+
+**1.**	Link your repository on the Vercel dashboard.  
 **2.**	Set the build and output settings. Vercel usually auto-detects these, but you can specify them as:  
 -Build Command: npm run build  
--Output Directory: build
+-Output Directory: build  
 **3.**	Deploy. Vercel will automatically handle deployments on every push.
 
 ***Deploying to Netlify***
-**1.**	Link your repository on the Netlify dashboard.
+
+**1.**	Link your repository on the Netlify dashboard.  
 **2.**	Set the build and publish settings:  
 -Build Command: npm run build  
--Publish Directory: build
+-Publish Directory: build  
 **3.**	Deploy. Netlify will automatically handle deployments on every push.
 ```
 npm run deploy 
