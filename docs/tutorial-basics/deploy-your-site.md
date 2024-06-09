@@ -68,18 +68,18 @@ npm install -g gh-pages
 **3.	Run the deploy script:**
 
 ***Deploying to Vercel***
-1.	Link your repository on the Vercel dashboard.
-2.	Set the build and output settings. Vercel usually auto-detects these, but you can specify them as:  
+**1.**	Link your repository on the Vercel dashboard.
+**2.**	Set the build and output settings. Vercel usually auto-detects these, but you can specify them as:  
 -Build Command: npm run build  
 -Output Directory: build
-3.	Deploy. Vercel will automatically handle deployments on every push.
+**3.**	Deploy. Vercel will automatically handle deployments on every push.
 
 ***Deploying to Netlify***
-1.	Link your repository on the Netlify dashboard.
-2.	Set the build and publish settings:  
+**1.**	Link your repository on the Netlify dashboard.
+**2.**	Set the build and publish settings:  
 -Build Command: npm run build  
 -Publish Directory: build
-3.	Deploy. Netlify will automatically handle deployments on every push.
+**3.**	Deploy. Netlify will automatically handle deployments on every push.
 ```
 npm run deploy 
 ```
@@ -89,7 +89,7 @@ This will build the site and push the contents of the build directory to the gh-
 To automate deployment with every push to your repository, you can set up Continuous Deployment (CD) with your chosen platform.
 GitHub Pages (Using GitHub Actions)
 
-1.	Create a GitHub Action workflow in .github/workflows/deploy.yml:
+**1.**	Create a GitHub Action workflow in .github/workflows/deploy.yml:
 ```
 name: Deploy Docusaurus to GitHub Pages
 on:
@@ -117,14 +117,14 @@ jobs:
           GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
 
-2.	Push the workflow file to your repository.
+**2.**	Push the workflow file to your repository.
 
-**Vercel**
+***Vercel***
 1.	Link your repository on the Vercel dashboard.
 2.	Set the build and output settings as mentioned earlier.
 3.	Deploy. Vercel will handle the deployment on every push.
 
-**Netlify**
+***Netlify***
 1.	Link your repository on the Netlify dashboard.
 2.	Set the build and publish settings as mentioned earlier.
 3.	Deploy. Netlify will handle the deployment on every push.
