@@ -2,6 +2,8 @@
 sidebar_position: 4
 ---
 
+## Install Dependencies
+
 After navigating to your project directory, you'll need to install the necessary dependencies to ensure your Docusaurus site functions correctly. This step is crucial for setting up your development environment and preparing your project for local development and deployment.
 
 **Navigate to Your Project Directory:**
