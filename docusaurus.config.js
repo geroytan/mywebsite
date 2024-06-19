@@ -41,7 +41,7 @@ const config = {
         title: "My Site",
         logo: {
           alt: "My Site Logo",
-          src: "img/logo.svg",
+          src: "img/logo1.png",
           href: "/docs/intro",
         },
         items: [
