@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+slug: /
 ---
 
 **Docusaurus** is a powerful and easy-to-use static site generator that is specifically optimized for project documentation. Built by Facebook, **Docusaurus** allows developers and teams to create, manage, and deploy high-quality documentation websites with minimal effort. Whether you're working on an open-source project, internal documentation, or personal technical notes, **Docusaurus** provides the tools and features needed to create a professional and visually appealing documentation site.
